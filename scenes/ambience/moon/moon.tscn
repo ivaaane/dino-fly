@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cho5y0f7rjdgm"]
+
+[ext_resource type="Texture2D" uid="uid://w2r78e5e72sv" path="res://assets/sprites/moon.png" id="1_4q8eh"]
+[ext_resource type="Script" uid="uid://cst47uhv8l8e1" path="res://scenes/ambience/moon/moon.gd" id="1_l0hn8"]
+
+[node name="Moon" type="CharacterBody2D"]
+z_index = -2
+script = ExtResource("1_l0hn8")
+SPEED = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_4q8eh")
+region_enabled = true
+region_rect = Rect2(0, 161, 40, 40)

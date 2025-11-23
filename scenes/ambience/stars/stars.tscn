@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dvfxiol7shqqy"]
+
+[ext_resource type="Script" uid="uid://beeskae82wnnl" path="res://scenes/ambience/stars/stars.gd" id="1_jelmj"]
+[ext_resource type="Texture2D" uid="uid://3d2x24jvcxd6" path="res://assets/sprites/background-stars.png" id="1_tyj47"]
+
+[node name="Stars" type="CharacterBody2D"]
+z_index = -3
+script = ExtResource("1_jelmj")
+SPEED = 5
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_tyj47")
+region_enabled = true
+region_rect = Rect2(0, 0, 8, 11)

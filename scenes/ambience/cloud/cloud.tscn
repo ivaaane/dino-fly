@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://xywsp7o1fio5"]
+
+[ext_resource type="Script" uid="uid://cxsp4jkfqwcat" path="res://scenes/ambience/cloud/cloud.gd" id="1_pd7oi"]
+[ext_resource type="Texture2D" uid="uid://cx33cxb1ve0xp" path="res://assets/sprites/background-cloud.png" id="2_e5mpr"]
+
+[node name="Cloud" type="CharacterBody2D"]
+z_index = -1
+scale = Vector2(1.5, 1.5)
+script = ExtResource("1_pd7oi")
+SPEED = 40
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_e5mpr")
