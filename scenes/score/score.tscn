@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dvflcr0ijqkso"]
 
 [ext_resource type="Script" uid="uid://d4iem0ngy1nxb" path="res://scenes/score/score.gd" id="1_3auxm"]
-[ext_resource type="FontFile" uid="uid://1pfw0gjrb6ge" path="res://assets/fonts/Emulogic-zrEw.ttf" id="2_27w82"]
+[ext_resource type="FontFile" uid="uid://3v401jriii14" path="res://assets/fonts/Super Mario Bros. NES.ttf" id="2_27w82"]
 [ext_resource type="AudioStream" uid="uid://eetplm4shof2" path="res://assets/sfx/point.mp3" id="2_juhlf"]
 
 [node name="Score" type="Node2D"]

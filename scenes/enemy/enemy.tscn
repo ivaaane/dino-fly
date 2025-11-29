@@ -14,6 +14,7 @@ BASE_SPEED = 250
 MAX = 5
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
 texture = ExtResource("2_a3pup")
 region_enabled = true
 region_rect = Rect2(0, 0, 44, 14)

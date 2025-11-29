@@ -2,5 +2,4 @@
 .godot/
 /android/
 build/
-export_presents.cfg
 *zip

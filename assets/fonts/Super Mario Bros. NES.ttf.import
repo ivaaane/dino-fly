@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://1pfw0gjrb6ge"
-path="res://.godot/imported/Emulogic-zrEw.ttf-f6c2785cc1ee8298b6a23b789409a042.fontdata"
+uid="uid://3v401jriii14"
+path="res://.godot/imported/Super Mario Bros. NES.ttf-eac8c979f968e3d107d6d814bad4ee24.fontdata"
 
 [deps]
 
-source_file="res://assets/fonts/Emulogic-zrEw.ttf"
-dest_files=["res://.godot/imported/Emulogic-zrEw.ttf-f6c2785cc1ee8298b6a23b789409a042.fontdata"]
+source_file="res://assets/fonts/Super Mario Bros. NES.ttf"
+dest_files=["res://.godot/imported/Super Mario Bros. NES.ttf-eac8c979f968e3d107d6d814bad4ee24.fontdata"]
 
 [params]
 

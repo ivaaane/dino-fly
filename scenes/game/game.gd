@@ -12,7 +12,7 @@ signal restart
 @onready var ambience 	= $AmbienceManager
 
 const ENEMY    = preload('res://scenes/enemy/enemy.tscn')
-const COLOR_BG = Color(0.3, 0.3, 0.3)
+var COLOR_BG = Color.hex(0x595652ff)
 
 func _ready() -> void:
 	message.show()
