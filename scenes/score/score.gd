@@ -31,7 +31,7 @@ func _on_timer_timeout() -> void:
 	if value % 100 == 0 and value > 1:
 		sfx.play()
 		ani_timer.start()
-		ani_count = 6
+		ani_count = 5
 		Globals.added_difficulty += 20  
 	# Night cycle
 	if value % 700 == 0 and value > 1:
